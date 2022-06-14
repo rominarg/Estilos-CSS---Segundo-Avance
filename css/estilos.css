@@ -70,7 +70,6 @@ a {
   text-decoration: none;
   font-weight: 700;
   display: inline-block;
-  text-align: right;
   flex-direction: end;
 }
 
@@ -128,6 +127,7 @@ a {
 
 .footer__item {
     margin-left: 2rem;
+    font-size: 30px
 }
 
 .servicios1 {
