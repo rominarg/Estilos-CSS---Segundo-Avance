@@ -40,17 +40,15 @@ a {
   background-size: cover;
   background-position: bottom center;
   padding: 100px 4rem;
-  color: #ffffff;
-  background-attachment: fixed;
-  text-align: right;
-  position: relative;
+  color: #ffffff; 
 }
 
 
 .banner__titulo {
   font-size: 3rem;
   margin-bottom: 2rem;
-  text-align: right;
+  display:flex
+  flex-direction: column;
 }
 
 .banner__parrafo {
@@ -58,7 +56,7 @@ a {
   margin-bottom: 2rem;
   max-width: 400px;
   color: white;
-  text-align: right;
+  align-self: end;
 }
 
 .banner__boton {
@@ -70,7 +68,7 @@ a {
   text-decoration: none;
   font-weight: 700;
   display: inline-block;
-  text-align: right;
+  align-self: end;
 }
 
 .position-fixed {
