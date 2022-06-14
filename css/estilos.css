@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
     background-color: rgb(58, 58, 58);
     color: white;
@@ -74,8 +78,8 @@ a {
 }
 
 .position-fixed {
-    background-color: rgb(58, 58, 58);
-    color: white;
+    background-color:rgb(58, 58, 58);
+    color:#ffffff;
     font-size: 32px;
     position: fixed;
     right: 2rem;
